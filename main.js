@@ -21,3 +21,6 @@ const sunDrifterImg = [];
 //pure bike image sources
 const pureBikeImg = [];
 
+
+
+
