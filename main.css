@@ -120,6 +120,11 @@ button {
   text-align: center;
 }
 
+.accessories-dropdown, .dropdown-menu, .dropdown-item {
+  width: 100%;
+  text-align: center;
+}
+
 .sales-header-text{
   font-size: 1.5em;
 }
