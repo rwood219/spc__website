@@ -1,0 +1,229 @@
+:root {
+  --main-bg-color: rgb(255, 255, 255);
+  --secondary-background-color: rgb(240, 245, 240);
+  --secondary-background-color: rgb(250, 248, 248);
+  --background-logo-color: rgb(57, 59, 59);
+  --primary-font-color:white;
+
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+   background-color: var(--secondary-background-color);
+}
+
+.card-img-overlay, .card-title {
+  text-align: center;
+
+}
+
+h2{
+ 
+  background-color: rgb(5, 5, 5);
+  text-align: center;
+}
+
+body {
+  background-color: var(--main-bg-color),
+  
+}
+
+#footer-ctn {
+ text-align: center;
+}
+
+
+.card {
+  padding: 10px
+}
+
+.nav {
+  justify-content: center;
+  background-color:var(--background-logo-color);
+
+  font-weight: bolder;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.carousel-item{
+  background-color: var(--background-logo-color);
+ 
+}
+.carousel-inner{
+  width:100%;
+  max-height: 600px !important;
+  font-size: .1em;
+}
+
+.nav-link {
+  margin: 10px 0px 10px 0px;
+  justify-content: space-evenly;
+}
+
+.header-ctn {
+  background-color: var(--main-bg-color);
+  text-align: center;
+  margin-top: 10px;
+  padding: 0%;
+  
+}
+
+footer {
+  background-color: var(--background-logo-color);
+  color: white;
+}
+
+button {
+  width: 50%;
+  opacity: 90%;
+ 
+}
+
+.logo-top {
+  margin: 0%;
+  padding: 0%;
+  justify-content: left;
+}
+
+.card-body {
+  background-color: var(--secondary-background-color); 
+}
+
+
+
+.card-deck {
+  justify-content: center;
+}
+
+.img-wrapper {
+  position: relative;
+  margin: 15px 30px 15px 30px;
+  
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.hours {
+  padding: 10px 10px 10px 10px;
+}
+
+.sales-header{
+  text-align: center;
+}
+
+.accessories-dropdown, .dropdown-menu, .dropdown-item {
+  width: 100%;
+  text-align: center;
+}
+
+.sales-header-text{
+  font-size: 1.5em;
+}
+
+.repair-btn{
+  color: black;
+  text-align: center;
+}
+.card-header>h5 {
+  text-align: center;
+}
+
+.card-header>h5>button{
+  color: black !important;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+.btn-responsive {
+  /* matches 'btn-md' */
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+@media (max-width:760px) {
+  /* matches 'btn-xs' */
+  .btn-responsive {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+  }
+  .img-fluid {
+    max-height: 300px;
+    width: 100%;
+  }
+  .img-responsive {
+    width: 100%;
+    max-height: 550px;
+  }
+}
+
+.card-title {
+  color: black;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+
+@media screen and (min-width:600px) {
+  .img-responsive {
+    width: 100%;  
+  }
+
+
+}
+
+@media screen and (min-width:1300px) {
+  .img-responsive {
+   padding-right: 25%;
+   padding-left: 25%;
+    max-height: 700px;
+    align-items: center;
+  }
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .carousel-inner{
+  width:100%;
+  max-height: 10px !important;
+}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
