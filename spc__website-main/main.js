@@ -25,13 +25,13 @@ const pureBikeImg = [];
 //SET STORE HOURS
 
 
-$('.sunday-hours').html('SUNDAY 10-5');
-$('.monday-hours').html('MONDAY 10-3');
-$('.tuesday-hours').html('TUESDAY 10-6');
-$('.wednesday-hours').html('WEDNESDAY 10-6');
-$('.thursday-hours').html('THURSDAY 10-6');
-$('.friday-hours').html('FRIDAY 10-6');
-$('.saturday-hours').html('SATURDAY 10-7');
+$('.sunday-hours').html('SUNDAY CLOSED');
+$('.monday-hours').html('MONDAY CLOSED');
+$('.tuesday-hours').html('TUESDAY CLOSED');
+$('.wednesday-hours').html('WEDNESDAY 10-5');
+$('.thursday-hours').html('THURSDAY 10-5');
+$('.friday-hours').html('FRIDAY 10-5');
+$('.saturday-hours').html('SATURDAY 10-5');
 
 //set phone number
 $('.phone-number').html('(609) 365 - 2959')
