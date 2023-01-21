@@ -2,7 +2,7 @@
   --main-bg-color: rgb(255, 255, 255);
   --secondary-background-color: rgb(240, 245, 240);
   --secondary-background-color: rgb(250, 248, 248);
-  --background-logo-color: rgb(0, 0, 0);
+  --background-logo-color: rgb(57, 59, 59);
   --primary-font-color:white;
 
 }
@@ -12,6 +12,11 @@
 }
 body {
    background-color: var(--secondary-background-color);
+}
+
+.card-img-overlay, .card-title {
+  text-align: center;
+
 }
 
 h2{
@@ -37,13 +42,17 @@ body {
 .nav {
   justify-content: center;
   background-color:var(--background-logo-color);
-  color: var(--primary-font-color);
+
   font-weight: bolder;
+}
+
+.nav-link {
+  color: white !important;
 }
 
 .carousel-item{
   background-color: var(--background-logo-color);
-  color: var(--primary-font-color);
+ 
 }
 .carousel-inner{
   width:100%;
@@ -65,7 +74,7 @@ body {
 }
 
 footer {
-  background-color: black;
+  background-color: var(--background-logo-color);
   color: white;
 }
 
